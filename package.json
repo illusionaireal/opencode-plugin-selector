@@ -1,0 +1,42 @@
+{
+  "name": "opencode-plugin-selector",
+  "version": "1.0.0",
+  "description": "Interactive plugin selector for OpenCode - easily manage your plugins with a beautiful TUI",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "plugin",
+    "selector",
+    "tui",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/opencode-plugin-selector"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "latest",
+    "@types/bun": "^1.3.11",
+    "@types/node": "^25.5.1",
+    "typescript": "^6.0.2"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "latest"
+  }
+}
