@@ -205,6 +205,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [OpenCode Documentation](https://opencode.ai/docs)
 - [OpenCode Ecosystem](https://opencode.ai/docs/ecosystem)
 - [Plugin Development Guide](https://opencode.ai/docs/plugins)
+- [Linux.Do 社区](https://linux.do) - 开发者社区
 
 ---
 
